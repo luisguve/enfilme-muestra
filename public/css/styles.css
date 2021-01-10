@@ -1,0 +1,16 @@
+@import "/public/plugins/bootstrap-5.0.0-beta1-dist/css/bootstrap.css";
+
+@font-face {
+  font-family: BebasNeueRegular;
+  src: url("/public/fonts/bebas_neue/BebasNeue-Regular.ttf");
+}
+
+body {
+	background: #212529;
+}
+
+.navbar {
+	background: #0a5189;
+	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	font-size: 19.5px;
+}

@@ -9,27 +9,40 @@
 <body>
 	<div class="container p-0 px-xl-5 mw-100">
 		<div class="row">
-			<div class="d-flex justify-content-between">
-				<div class="mw-25">
+			<div class="d-none d-xl-flex justify-content-between">
+				<div class="w-25">
 					<img src="public/img/logo_enfilme.png">
 				</div>
-				<div class="d-flex align-items-center">
+				<div class="w-50 d-flex align-items-center">
 					<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-twitter fs-3 d-flex align-items-center"></i></a>
 					<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-facebook fs-3 d-flex align-items-center"></i></a>
-					<form class="d-flex me-3 me-xl-0">
-						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-primary text-light" type="submit">Buscar</button>
+					<form class="d-flex me-3 me-xl-0 w-100">
+						<input class="form-control me-2 w-75" type="search" placeholder="Buscar" aria-label="Search">
+						<button class="btn btn-primary text-light w-25" type="submit">Buscar</button>
 					</form>
 				</div>
 			</div>
 		</div>
 		<nav class="navbar navbar-expand-xl navbar-dark text-uppercase">
 			<div class="container-fluid">
+				<a class="navbar-brand d-xl-none w-50" href="#"><img class="img-fluid" src="public/img/logo_enfilme.png"></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mb-2 mb-lg-0 w-100 justify-content-around fs-4">
+					<ul class="navbar-nav mb-2 mb-lg-0 w-100 justify-content-around fs-3 fs-lg-4">
+						<li class="nav-item d-xl-none d-flex flex-column pb-2">
+							<div class="pb-2">
+								<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-twitter fs-3"></i></a>
+								<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-facebook fs-3"></i></a>
+							</div>
+							<div>
+								<form class="d-flex">
+									<input class="form-control me-2 py-2 px-3 fs-3 w-75" type="search" placeholder="Introduce alguna palabra" aria-label="Search">
+									<button class="btn btn-dark text-light fs-3 w-25" type="submit">Buscar</button>
+								</form>
+							</div>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link active" aria-current="page" href="#">Home</a>
 						</li>
@@ -43,7 +56,7 @@
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Reseñas
 							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu fs-4" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#">en pantalla</a></li>
 								<li><a class="dropdown-item" href="#">soundtrack</a></li>
 							</ul>
@@ -64,7 +77,7 @@
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Blogs
 							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu fs-4" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#">pelicomics</a></li>
 								<li><a class="dropdown-item" href="#">the f scene</a></li>
 								<li><a class="dropdown-item" href="#">ricardo pohlenz</a></li>
@@ -85,7 +98,7 @@
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 								Ciniciados
 							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<ul class="dropdown-menu fs-4" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#">pelicomics</a></li>
 								<li><a class="dropdown-item" href="#">the f scene</a></li>
 								<li><a class="dropdown-item" href="#">ricardo pohlenz</a></li>

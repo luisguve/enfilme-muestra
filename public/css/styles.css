@@ -14,3 +14,7 @@ body {
 	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
 	font-size: 19.5px;
 }
+
+.navbar-nav > li:nth-child(even) {
+	background: #1a417b;
+}

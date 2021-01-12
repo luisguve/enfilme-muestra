@@ -18,3 +18,19 @@ body {
 .navbar-nav > li:nth-child(even) {
 	background: #1a417b;
 }
+
+.slider-for {
+	height: 25vh;
+}
+
+.slider-nav {
+	height: 10vh;
+}
+
+.slider-for div, .slider-nav div {
+	height: 100%;
+}
+
+.slider-nav .slick-current {
+	border: 1px solid #212529;
+}

@@ -13,10 +13,8 @@ $(document).ready(function(){
 		asNavFor: '.slider-for',
 		dots: false,
 		centerMode: false,
-		focusOnSelect: true
-	});
-	// On before slide change
-	$('.slider-nav').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-		// console.log(nextSlide);
+		focusOnSelect: true,
+		prevArrow: $('.prev-button'),
+		nextArrow: $('.next-button')
 	});
 });

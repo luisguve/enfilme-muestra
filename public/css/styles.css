@@ -20,17 +20,43 @@ body {
 }
 
 .slider-for {
-	height: 25vh;
+	height: 500px;
 }
 
-.slider-nav {
-	height: 10vh;
+.slider-nav-container {
+	height: 150px;
+}
+
+.slider-nav-container .slider-nav {
+	width: 90%;
+}
+
+.slider-nav-container button {
+	width: 5%;
+	/*background: #0a5189 !important;*/
 }
 
 .slider-for div, .slider-nav div {
 	height: 100%;
 }
 
+.slider-nav .slick-slide {
+	padding: 10px;
+	background: #212529;
+}
+
 .slider-nav .slick-current {
 	border: 1px solid #212529;
+}
+
+@media screen and (min-width: 1200px) {
+	.fs-lg-5 {
+		font-size: 1.25rem !important;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.fs-xl-4 {
+		font-size: 1.5rem !important;
+	}
 }

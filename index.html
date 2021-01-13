@@ -9,19 +9,25 @@
 	<link rel="stylesheet" type="text/css" href="public/plugins/slick/slick-theme.css"/>
 </head>
 <body>
-	<div class="container p-0 px-xl-5 mw-100">
-		<div class="row">
-			<div class="d-none d-xl-flex justify-content-between">
-				<div class="w-25">
-					<img src="public/img/logo_enfilme.png">
-				</div>
-				<div class="w-50 d-flex align-items-center">
-					<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-twitter fs-3 d-flex align-items-center"></i></a>
-					<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-facebook fs-3 d-flex align-items-center"></i></a>
-					<form class="d-flex me-3 me-xl-0 w-100">
-						<input class="form-control me-2 w-75" type="search" placeholder="Buscar" aria-label="Search">
-						<button class="btn btn-primary text-light w-25" type="submit">Buscar</button>
-					</form>
+	<div class="container-lg p-0">
+		<div class="row d-none d-xl-flex">
+			<div class="col">
+				<div class="container-fluid p-0">
+					<div class="row justify-content-between">
+						<div class="col-3">
+							<img class="img-fluid" src="public/img/logo_enfilme.png">
+						</div>
+						<div class="col-6 d-flex align-items-center justify-content-end">
+							<div class="d-flex align-items-center">
+								<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-twitter fs-3 d-flex align-items-center"></i></a>
+								<a href="#" class="me-3 text-light text-decoration-none"><i class="bi-facebook fs-3 d-flex align-items-center"></i></a>
+								<form class="d-flex me-3 me-xl-0 w-100">
+									<input class="form-control me-2 w-75" type="search" placeholder="Buscar" aria-label="Search">
+									<button class="btn btn-primary text-light w-25" type="submit">Buscar</button>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -112,40 +118,42 @@
 				</div>
 			</div>
 		</nav>
-		<div class="row justify-content-center mt-3">
-			<div class="col-12">
-				<div class="slider-for fs-1 fw-weight w-100 bg-light mb-2">
-					<div class="d-flex align-items-center justify-content-center">1</div>
-					<div class="d-flex align-items-center justify-content-center">2</div>
-					<div class="d-flex align-items-center justify-content-center">3</div>
-					<div class="d-flex align-items-center justify-content-center">4</div>
-					<div class="d-flex align-items-center justify-content-center">5</div>
-					<div class="d-flex align-items-center justify-content-center">6</div>
-					<div class="d-flex align-items-center justify-content-center">7</div>
-					<div class="d-flex align-items-center justify-content-center">8</div>
-					<div class="d-flex align-items-center justify-content-center">9</div>
-					<div class="d-flex align-items-center justify-content-center">10</div>
-					<div class="d-flex align-items-center justify-content-center">11</div>
-					<div class="d-flex align-items-center justify-content-center">12</div>
+		<!-- Carousel -->
+		<div class="row justify-content-center mt-0 mt-md-3 mb-2">
+			<div class="col-12 slider-for fs-1 fw-weight">
+				<div class="d-flex align-items-center bg-light justify-content-center">1</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">2</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">3</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">4</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">5</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">6</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">7</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">8</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">9</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">10</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">11</div>
+				<div class="d-flex align-items-center bg-light justify-content-center">12</div>
+			</div>
+		</div>
+		<!-- Carousel navigation -->
+		<div class="row justify-content-center">
+			<div class="col-12 slider-nav-container d-flex justify-content-between">
+				<button class="prev-button btn btn-dark" aria-label="Previous" type="button" style="display: block;"><i class="bi-caret-left-fill d-flex align-items-center justify-content-center"></i></button>
+				<div class="slider-nav">
+					<div class="d-flex align-items-center justify-content-center bg-light">1</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">2</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">3</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">4</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">5</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">6</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">7</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">8</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">9</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">10</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">11</div>
+					<div class="d-flex align-items-center justify-content-center bg-light">12</div>
 				</div>
-				<div class="d-flex slider-nav-container">
-					<button class="prev-button btn btn-dark" aria-label="Previous" type="button" style="display: block;"><i class="bi-caret-left-fill d-flex align-items-center justify-content-center"></i></button>
-					<div class="slider-nav">
-						<div class="d-flex align-items-center justify-content-center bg-light">1</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">2</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">3</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">4</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">5</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">6</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">7</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">8</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">9</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">10</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">11</div>
-						<div class="d-flex align-items-center justify-content-center bg-light">12</div>
-					</div>
-					<button class="next-button btn btn-dark" aria-label="Next" type="button" style="display: block;"><i class="bi-caret-right-fill d-flex align-items-center justify-content-center"></i></button>
-				</div>
+				<button class="next-button btn btn-dark" aria-label="Next" type="button" style="display: block;"><i class="bi-caret-right-fill d-flex align-items-center justify-content-center"></i></button>
 			</div>
 		</div>
 	</div>
@@ -153,14 +161,14 @@
 
 	<!-- Bootstrap -->
 	<script type="text/javascript" src="public/plugins/bootstrap-5.0.0-beta1-dist/js/bootstrap.js"></script>
-	<!-- jQuery -->
+	<!-- jQuery
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	-->
 
-	<!-- jQuery
+	<!-- jQuery -->
 	<script type="text/javascript" src="public/plugins/jquery/jquery-3.5.1.js"></script>
 	<script type="text/javascript" src="public/plugins/jquery/jquery-migrate-1.4.1.js"></script>
-	-->
 
 	<!-- Slick -->
 	<script type="text/javascript" src="public/plugins/slick/slick.js"></script>

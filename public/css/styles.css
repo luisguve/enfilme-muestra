@@ -33,7 +33,7 @@ body {
 
 .slider-nav-container button {
 	width: 5%;
-	/*background: #0a5189 !important;*/
+	background: cyan !important;
 }
 
 .slider-for div, .slider-nav div {

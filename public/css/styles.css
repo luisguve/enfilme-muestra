@@ -24,16 +24,30 @@ body {
 	background: #1a417b;
 }
 
-.slider-for {
-	height: 500px;
-}
-
 .slider-nav-container {
 	height: 150px;
 }
 
-.slider-for div, .slider-nav div {
+.slider-nav div {
 	height: 100%;
+}
+
+.slider-desc, .slider-desc p.desc-category {
+	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+}
+
+.slider-desc p.desc-category {
+	color: #0daccc;
+}
+
+.slider-desc p {
+	font-family: Helvetica, sans-serif;
+}
+
+.slider-desc a.btn {
+	background: #1a417b;
+	color: white;
+	letter-spacing: 1.5px;
 }
 
 .slider-nav .slick-slide {
@@ -50,5 +64,11 @@ body {
 @media screen and (min-width: 1400px) {
 	.fs-xl-4 {
 		font-size: 1.5rem !important;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.slider-nav .slick-slide {
+		padding: 10px 4px;
 	}
 }

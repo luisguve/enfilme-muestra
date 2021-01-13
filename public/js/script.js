@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.slider-for').slick({
+	$('.main-slider').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		arrows: false,
@@ -10,7 +10,7 @@ $(document).ready(function(){
 	$('.slider-nav').slick({
 		slidesToShow: 4,
 		slidesToScroll: 4,
-		asNavFor: '.slider-for',
+		asNavFor: '.main-slider',
 		dots: false,
 		centerMode: false,
 		focusOnSelect: true,

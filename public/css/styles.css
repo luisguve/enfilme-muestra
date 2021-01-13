@@ -5,6 +5,11 @@
   src: url("/public/fonts/bebas_neue/BebasNeue-Regular.ttf");
 }
 
+* {
+	min-height: 0;
+	min-width: 0;
+}
+
 body {
 	background: #212529;
 }
@@ -27,15 +32,6 @@ body {
 	height: 150px;
 }
 
-.slider-nav-container .slider-nav {
-	width: 90%;
-}
-
-.slider-nav-container button {
-	width: 5%;
-	background: cyan !important;
-}
-
 .slider-for div, .slider-nav div {
 	height: 100%;
 }
@@ -43,10 +39,6 @@ body {
 .slider-nav .slick-slide {
 	padding: 10px;
 	background: #212529;
-}
-
-.slider-nav .slick-current {
-	border: 1px solid #212529;
 }
 
 @media screen and (min-width: 1200px) {

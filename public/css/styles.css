@@ -66,6 +66,23 @@ body {
 	background: rgba(0,0,0,0.7);
 }
 
+
+/* Override slick css: allow users to highlight text of slides if they're not draggable. */
+.slick-slider {
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+.slick-list.draggable {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
 @media screen and (min-width: 1200px) {
 	.fs-lg-5 {
 		font-size: 1.25rem !important;

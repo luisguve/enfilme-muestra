@@ -5,7 +5,8 @@ $(document).ready(function(){
 		arrows: false,
 		fade: true,
 		asNavFor: '.slider-nav',
-		autoplay: false
+		draggable: false,
+		autoplay: true
 	});
 	$('.slider-nav').slick({
 		slidesToShow: 4,
@@ -34,5 +35,13 @@ $(document).ready(function(){
 				}
 			}
 		]
+	});
+	// set background images
+	const slides = document.querySelectorAll(".nav-slide");
+	slides.forEach(slide => {
+		const bgImgUrl = `url(${slide.dataset["bgImg"]})`;
+		$(slide).css("background", bgImgUrl);
+		$(slide).css("background-size", "cover");
+		$(slide).css("background-position", "center");
 	});
 });

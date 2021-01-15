@@ -5,23 +5,31 @@
   src: url("/public/fonts/bebas_neue/BebasNeue-Regular.ttf");
 }
 
+:root {
+  --brand-blue: #0a5189;
+  --deeper-brand-blue: #1a417b;
+  --lighter-brand-blue: #0daccc;
+  --brand-font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+  --dark-background: #212529;
+}
+
 * {
 	min-height: 0;
 	min-width: 0;
 }
 
 body {
-	background: #212529;
+	background: var(--dark-background);
 }
 
 .navbar {
-	background: #0a5189;
-	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	background: var(--brand-blue);
+	font-family: var(--brand-font-family);
 	font-size: 19.5px;
 }
 
 .navbar-nav > li:nth-child(even) {
-	background: #1a417b;
+	background: var(--deeper-brand-blue);
 }
 
 .slider-nav-container {
@@ -33,11 +41,11 @@ body {
 }
 
 .slider-desc, .slider-desc p.desc-category {
-	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	font-family: var(--brand-font-family);
 }
 
 .slider-desc p.desc-category {
-	color: #0daccc;
+	color: var(--lighter-brand-blue);
 }
 
 .slider-desc p {
@@ -45,18 +53,18 @@ body {
 }
 
 .slider-desc a.btn {
-	background: #1a417b;
+	background: var(--brand-blue);
 	color: white;
 	letter-spacing: 1.5px;
 }
 
 .slider-desc a.btn:hover {
-	background: #0a5189;
+	background: var(--deeper-brand-blue);
 }
 
 .slider-nav .slick-slide {
 	padding: 10px;
-	background: #212529;
+	background: var(--dark-background);
 }
 
 .nav-slide-title {
@@ -65,7 +73,6 @@ body {
 	color: white;
 	background: rgba(0,0,0,0.7);
 }
-
 
 /* Override slick css: allow users to highlight text of slides if they're not draggable. */
 .slick-slider {
@@ -83,6 +90,40 @@ body {
 	user-select: none;
 }
 
+/* Estrenos de la semana */
+
+.estrenos {
+	border: 1px solid #6f6f6f;
+	border-radius: 15px;
+}
+
+.estrenos h1, .estrenos h2 {
+	font-family: var(--brand-font-family);
+}
+
+.estrenos-title {
+	background: var(--brand-blue);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.estrenos-list {
+	border-right: 1px solid #6f6f6f;
+}
+
+.estrenos-list h2 {
+	padding-top: 3px;
+}
+
+.estrenos .active {
+	background: var(--deeper-brand-blue);
+}
+
+.estreno-desc:hover {
+	background: var(--lighter-brand-blue);
+	cursor: pointer;
+}
+
 @media screen and (min-width: 1200px) {
 	.fs-lg-5 {
 		font-size: 1.25rem !important;
@@ -98,5 +139,12 @@ body {
 @media screen and (max-width: 991px) {
 	.slider-nav .slick-slide {
 		padding: 10px 4px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.estrenos, .estrenos-title, .estrenos-list {
+		border-radius: 0;
+		border: none;
 	}
 }

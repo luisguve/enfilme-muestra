@@ -114,6 +114,15 @@ a.btn:hover {
 	border-bottom-right-radius: 15px;
 }
 
+/* Suggestions section */
+.suggestions {
+	background: #0a5189;
+}
+
+.suggestions-title, a.btn {
+	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+}
+
 @media screen and (min-width: 1200px) {
 	.fs-lg-5 {
 		font-size: 1.25rem !important;

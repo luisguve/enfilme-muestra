@@ -32,6 +32,7 @@ body {
 	background: var(--deeper-brand-blue);
 }
 
+/* Carousel */
 .slider-nav-container {
 	height: 150px;
 }
@@ -40,7 +41,8 @@ body {
 	height: 100%;
 }
 
-.slider-desc, .slider-desc p.desc-category {
+.slider-desc, .slider-desc p.desc-category, .interview-container h1,
+.interview-container a, .review-title, .suggestions-title {
 	font-family: var(--brand-font-family);
 }
 
@@ -52,13 +54,13 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-.slider-desc a.btn {
+a.btn {
 	background: var(--brand-blue);
 	color: white;
 	letter-spacing: 1.5px;
 }
 
-.slider-desc a.btn:hover {
+a.btn:hover {
 	background: var(--deeper-brand-blue);
 }
 
@@ -91,7 +93,6 @@ body {
 }
 
 /* Estrenos de la semana */
-
 .estrenos {
 	border: 1px solid #6f6f6f;
 	border-radius: 15px;
@@ -102,9 +103,9 @@ body {
 }
 
 .estrenos-title {
-	background: var(--brand-blue);
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	border-bottom: 1px solid #6f6f6f;
 }
 
 .estrenos-list {
@@ -122,6 +123,45 @@ body {
 .estreno-desc:hover {
 	background: var(--lighter-brand-blue);
 	cursor: pointer;
+}
+
+/* Interview and review section */
+.iframe-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.iframe-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.review-container .card {
+	background: var(--brand-blue);
+	border-color: var(--deeper-brand-blue);
+}
+
+.review-container .card a.btn {
+	background: var(--deeper-brand-blue);
+}
+
+.review-container .card a.btn:hover {
+	background-color: #1c1f23;
+    border-color: #1a1e21;
+}
+
+/* Suggestions section */
+.suggestions {
+	background: var(--brand-blue);
+}
+
+.suggestions-title, a.btn {
+	font-family: var(--brand-font-family);
 }
 
 @media screen and (min-width: 1200px) {
@@ -143,6 +183,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+	.estrenos-title {
+		background: var(--brand-blue);
+	}
 	.estrenos, .estrenos-title, .estrenos-list {
 		border-radius: 0;
 		border: none;

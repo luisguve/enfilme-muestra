@@ -98,20 +98,18 @@ a.btn:hover {
 	height: 100%;
 }
 
-.review-container {
-	border: 1px solid grey;
-	border-radius: 15px;
-}
-
-.review-title {
+.review-container .card {
 	background: #0a5189;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	border-color: #1a417b;
 }
 
-.review-thumbnail {
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+.review-container .card a.btn {
+	background: #1a417b;
+}
+
+.review-container .card a.btn:hover {
+	background-color: #1c1f23;
+    border-color: #1a1e21;
 }
 
 /* Suggestions section */
@@ -138,12 +136,5 @@ a.btn:hover {
 @media screen and (max-width: 991px) {
 	.slider-nav .slick-slide {
 		padding: 10px 4px;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.review-container, .review-title, .review-thumbnail {
-		border: none;
-		border-radius: 0;
 	}
 }

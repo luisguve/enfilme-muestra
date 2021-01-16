@@ -48,42 +48,42 @@ $(document).ready(function(){
 	// Setup event listeners.
 	const estrenosContents = [
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia",
 			desc: "Una luz que se apaga en el camino."
 		},
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia 2",
 			desc: "Una luz que se apaga en el camino."
 		},
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia 3",
 			desc: "Una luz que se apaga en el camino."
 		},
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia 4",
 			desc: "Una luz que se apaga en el camino."
 		},
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia 5",
 			desc: "Una luz que se apaga en el camino."
 		},
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia 6",
 			desc: "Una luz que se apaga en el camino."
 		},
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia 7",
 			desc: "Una luz que se apaga en el camino."
 		},
 		{
-			img: "public/img/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
+			img: "public/img/news/vaquero_del_mediodia_Enfilme_6c240_340_170.jpg",
 			title: "vaquero del mediodia 8",
 			desc: "Una luz que se apaga en el camino."
 		}

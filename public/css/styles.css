@@ -94,6 +94,9 @@ a.btn:hover {
 
 /* Estrenos de la semana */
 .estrenos {
+	background: url(/public/img/movie_theater.jpg);
+	background-size: cover;
+	background-position: top center;
 	border: 1px solid #6f6f6f;
 	border-radius: 15px;
 }

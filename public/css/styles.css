@@ -9,6 +9,7 @@
   --brand-blue: #0a5189;
   --deeper-brand-blue: #1a417b;
   --lighter-brand-blue: #0daccc;
+  --tr-deeper-brand-blue: rgba(26,65,123,0.8);
   --brand-font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
   --dark-background: #212529;
 }
@@ -97,17 +98,21 @@ a.btn:hover {
 	background: url(/public/img/movie_theater.jpg);
 	background-size: cover;
 	background-position: top center;
-	border: 1px solid #6f6f6f;
-	border-radius: 15px;
+}
+
+.estrenos .estrenos-panel-container {
+	background: rgba(0,0,0,0.8);
 }
 
 .estrenos h1, .estrenos h2 {
 	font-family: var(--brand-font-family);
 }
 
+.estrenos-panel {	
+	border-bottom: 1px solid #6f6f6f;
+}
+
 .estrenos-title {
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
 	border-bottom: 1px solid #6f6f6f;
 }
 
@@ -119,13 +124,38 @@ a.btn:hover {
 	padding-top: 3px;
 }
 
-.estrenos .active {
+.estreno-desc:hover {
 	background: var(--deeper-brand-blue);
+	cursor: pointer;
 }
 
-.estreno-desc:hover {
-	background: var(--lighter-brand-blue);
-	cursor: pointer;
+.estreno-desc:nth-child(1) {
+	background: hsla(348,100%,6.25%,0.5);
+}
+.estreno-desc:nth-child(2) {
+	background: hsla(348,100%,12.5%,0.5);
+}
+.estreno-desc:nth-child(3) {
+	background: hsla(348,100%,18.75%,0.5);
+}
+.estreno-desc:nth-child(4) {
+	background: hsla(348,100%,25%,0.5);
+}
+.estreno-desc:nth-child(5) {
+	background: hsla(348,100%,31.25%,0.5);
+}
+.estreno-desc:nth-child(6) {
+	background: hsla(348,100%,37.5%,0.5);
+}
+.estreno-desc:nth-child(7) {
+	background: hsla(348,100%,43.75%,0.5);
+}
+.estreno-desc:nth-child(8) {
+	background: hsla(348,100%,50%,0.5);
+}
+
+.estreno-desc.active {
+	background: var(--tr-deeper-brand-blue);
 }
 
 /* Interview and review section */
@@ -195,8 +225,8 @@ a.btn:hover {
 }
 
 @media screen and (max-width: 767px) {
-	.estrenos-title {
-		background: var(--brand-blue);
+	.estrenos-panel {
+		border-bottom: none;
 	}
 	.estrenos, .estrenos-title, .estrenos-list {
 		border-radius: 0;

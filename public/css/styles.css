@@ -42,7 +42,7 @@ body {
 }
 
 .slider-desc, .slider-desc p.desc-category, .interview-container h1,
-.interview-container a, .review-title, .suggestions-title {
+.interview-container a, .review-title, .suggestions-title, .top-posts-title {
 	font-family: var(--brand-font-family);
 }
 
@@ -162,6 +162,15 @@ a.btn:hover {
 
 .suggestions-title, a.btn {
 	font-family: var(--brand-font-family);
+}
+
+/* Top posts section */
+.top-posts .card {
+	background-color: #6f6f6f;
+}
+
+.top-posts .thumbnail {
+	object-fit: cover;
 }
 
 @media screen and (min-width: 1200px) {

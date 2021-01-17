@@ -124,11 +124,6 @@ a.btn:hover {
 	padding-top: 3px;
 }
 
-.estreno-desc:hover {
-	background: var(--deeper-brand-blue);
-	cursor: pointer;
-}
-
 .estreno-desc:nth-child(1) {
 	background: hsla(348,100%,6.25%,0.5);
 }
@@ -156,6 +151,11 @@ a.btn:hover {
 
 .estreno-desc.active {
 	background: var(--tr-deeper-brand-blue);
+}
+
+.estreno-desc:hover {
+	background: var(--deeper-brand-blue);
+	cursor: pointer;
 }
 
 /* Interview and review section */

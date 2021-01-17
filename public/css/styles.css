@@ -10,6 +10,7 @@
   --deeper-brand-blue: #1a417b;
   --lighter-brand-blue: #0daccc;
   --tr-deeper-brand-blue: rgba(26,65,123,0.8);
+  --tr-deeper-brand-red: hsla(348,100%,18.75%,0.8);
   --brand-font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
   --dark-background: #212529;
 }
@@ -122,6 +123,7 @@ a.btn:hover {
 
 .estrenos-list h2 {
 	padding-top: 3px;
+	padding-left: 5px;
 }
 
 .estreno-desc:nth-child(1) {
@@ -206,9 +208,23 @@ a.btn:hover {
 	object-fit: cover;
 }
 
+/* Subscription section */
+.subscribe {
+	background: url(/public/img/filmmaking.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.subscribe-container {
+	background: var(--tr-deeper-brand-red);
+}
+
 @media screen and (min-width: 1200px) {
 	.fs-lg-5 {
 		font-size: 1.25rem !important;
+	}
+	.subscribe {
+		background-position: center 70%;
 	}
 }
 
@@ -231,5 +247,11 @@ a.btn:hover {
 	.estrenos, .estrenos-title, .estrenos-list {
 		border-radius: 0;
 		border: none;
+	}
+}
+
+@media screen and (max-width: 357px) {
+	.slider-nav-container {
+		height: auto;
 	}
 }

@@ -6,7 +6,7 @@ $(document).ready(function(){
 		fade: true,
 		asNavFor: '.slider-nav',
 		draggable: false,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 8000
 	});
 	$('.slider-nav').slick({
